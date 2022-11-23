@@ -97,6 +97,28 @@
     font-size: 15px;
   }
 
-  .open-post__heart-count span{
+  .open-post__heart-count span {
     margin-left: 3px;
   }
+  
+  @keyframes heartBeat {
+    0% {
+       color:#ffb0e0;
+       transform: none;
+          }
+  50%{
+       color: blue;
+      transform: scale(2.0);
+  }
+
+100%{
+color:brown;
+transform: none;
+
+}
+}
+
+.open-post__heart-count:hover i{
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
