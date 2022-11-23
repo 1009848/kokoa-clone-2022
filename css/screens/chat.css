@@ -39,9 +39,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeIn 0.6s linear;
-    
+    animation: fadeIn 0.6s linear;    
     }
+
+    .user-component{
+      margin-bottom: 20px;
+    }
+      
 
     .chat__timesmap{
         color:black;
@@ -126,7 +130,7 @@
         transition: transform 0.3s ease-in-out;
       }
       
-      .reply .reply__column:first-child {
+      .reply .reply__column:first-child {chats.html
         width: 10%;
       }
       .reply .reply__column:last-child {
