@@ -113,7 +113,7 @@
         flex-direction: row-reverse;
       }
    
-      .reply {
+      .replyy {
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -126,19 +126,19 @@
         transition: transform 0.3s ease-in-out;
       }
       
-      .reply .reply__column:first-child {
+      .replyy .reply__columnn:first-child {
         width: 10%;
       }
-      .reply .reply__column:last-child {
+      .replyy .reply__columnn:last-child {
         width: 90%;
         position: relative;
       }
       
-      .reply i {
+      .replyy i {
         opacity: 0.5;
       }
       
-      .reply input {
+      .replyy input {
         padding: 14px;
         width: 100%;
         border: var(--main-border);
@@ -147,19 +147,19 @@
         transition: all 0.3s ease-in-out;
       }
       
-      .reply__column:last-child > i,
-      .reply__column:last-child button {
+      .reply__columnn:last-child > i,
+      .reply__columnn:last-child button {
         position: absolute;
         right: 3px;
         top: 3px;
       }
       
-      .reply__column:last-child > i {
+      .reply__columnn:last-child > i {
         right: 50px;
         top: 15px;
       }
       
-      .reply__column button {
+      .reply__columnn button {
         background-color: var(--yellow);
         border: none;
         width: 40px;
@@ -167,32 +167,32 @@
         border-radius: 50%;
       }
       
-      .reply__column button i {
+      .reply__columnn button i {
         opacity: 1;
       }
-      .reply__column button:focus,
-      .reply__column button:active {
+      .reply__columnn button:focus,
+      .reply__columnn button:active {
         outline: none;
       }
 
 
-.reply .reply__column:first-child,
-.reply .fa-smile-wink,
-.reply button {
+.replyy .reply__columnn:first-child,
+.replyy .fa-smile-wink,
+.replyy button {
   transition: opacity 0.3s ease-in-out;
 }
 
-.reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-smile-wink,
-.reply:focus-within button {
+.replyy:focus-within .reply__columnn:first-child,
+.replyy:focus-within .fa-smile-wink,
+.replyy:focus-within button {
   opacity: 0;
 }
 
-.reply input:focus{
+.replyy input:focus{
   width: 98vw;
   transform: translateX(-13%) translateY(-80px);
 }
 
-.reply:focus-within {
+.replyy:focus-within {
   transform: translateY(80px);
 }
