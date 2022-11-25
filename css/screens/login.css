@@ -42,7 +42,7 @@
  }
  
  #login-form input[type="submit"]{
-   background-color: lightcoral;
+   background-color: rgb(255, 155, 155);
    font-weight: 500;
    cursor:pointer;
    padding: 20px 0px;

@@ -45,7 +45,7 @@
 
 
     #splash-screen{
-        background-color: lightcoral;
+        background-color: rgb(255, 155, 155);
         position:absolute;
         width:100vw;
         height: 100vh;
