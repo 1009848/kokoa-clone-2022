@@ -43,7 +43,7 @@
  
  #login-form input[type="submit"]{
    background-color: rgb(255, 155, 155);
-   font-weight: 500;
+   font-weight: 600;
    cursor:pointer;
    padding: 20px 0px;
    border-radius: 5px;
