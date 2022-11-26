@@ -12,7 +12,13 @@
 }
 
 .screen-header__icons span{
-    margin-left: 25px;}
+    margin-left: 25px;
+  }
+
+  .screen-header__icons:last-child span {
+    margin-right: 3px;
+    justify-content: flex-end;
+  }
 
 
     @keyframes rotateCog {
