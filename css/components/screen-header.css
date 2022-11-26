@@ -13,7 +13,11 @@
 }
 
 .screen-header__icons span {
-  margin-left: 15px;
+  margin-left: 25px;
+  dispaly: inline-block;
+  width:100%;
+
+
 }
 
 @keyframes rotateCog {
