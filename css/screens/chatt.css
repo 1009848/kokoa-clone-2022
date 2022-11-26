@@ -118,6 +118,7 @@
         bottom: 0;
         width: 100%;
         background-color: white;
+        color:dimgrey;
         display: flex;
         justify-content: space-between;
         padding: 5px 25px;
