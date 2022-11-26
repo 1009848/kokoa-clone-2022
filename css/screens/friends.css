@@ -1,14 +1,3 @@
-#friend-screen{
-  height: 200vh;
-}
-
-#friend-screen {
-  top:0;
-  position: fixed;
-  width:100%;
-  height: 100%;
-
-}
 
 #friends-display-link{
  text-align: center;  
