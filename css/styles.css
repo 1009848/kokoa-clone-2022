@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Nanum+Pen+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
 @import "reset.css";
 @import "variables.css";
 
-/*components*/
+/* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
@@ -13,7 +13,7 @@
 @import "components/icon-row.css";
 @import "components/no-mobile.css";
 
-/*screens*/
+/* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
@@ -22,15 +22,11 @@
 @import "screens/chat.css";
 @import "screens/chatt.css";
 
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+}
 
-
-body{
-    color: #2e363e;
-    font-family: 'Nanum Pen Script', cursive;
-    font-family: 'Hi Melody', cursive;
-
-  }
-
-  .main-screen {
-    padding: 0px var(--horizontal-space);
-  }
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
